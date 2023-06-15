@@ -2,7 +2,7 @@
     "name": "marom/ci4-files",
     "description": "Ci4 - File Management",
     "type": "library",
-    "license": "GNU",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Marom\\Ci4Files\\": "src/"
