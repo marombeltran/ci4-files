@@ -1,0 +1,19 @@
+{
+    "name": "marom/ci4-files",
+    "description": "Ci4 - File Management",
+    "type": "library",
+    "license": "GNU",
+    "autoload": {
+        "psr-4": {
+            "Marom\\Ci4Files\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marom Beltran",
+            "email": "mrmbeltran@proton.me"
+        }
+    ],
+    "minimum-stability": "RC",
+    "require": {}
+}
