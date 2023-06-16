@@ -15,5 +15,15 @@
         }
     ],
     "minimum-stability": "RC",
-    "require": {}
+    "require": {
+        "php": "^8.0",
+        "enyo/dropzone": "^5.9",
+        "tatter/exports": "^2.1",
+        "tatter/permits": "^2.1",
+        "tatter/preferences": "^1.0@RC",
+        "tatter/thumbnails": "^1.2"
+    },
+    "require-dev": {
+        "codeigniter4/framework": "^4.3"
+    }
 }
