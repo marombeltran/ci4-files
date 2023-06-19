@@ -2,10 +2,9 @@
 
 namespace Marom\Ci4Files\Config;
 
-use CodeIgniter\Config\BaseConfig;
 use Marom\Ci4Files\Exceptions\FilesException;
 
-class Files extends BaseConfig
+class Files extends \CodeIgniter\Config\BaseConfig
 {
     /**
      * Whether to include routes to the Files Controller.
@@ -17,7 +16,7 @@ class Files extends BaseConfig
      *
      * @var string[]
      */
-    public array $view = [
+    public array $views = [
         'dropzone' => 'Marom\Ci4Files\Views\Dropzone\config',
     ];
 
@@ -64,7 +63,7 @@ class Files extends BaseConfig
      *
      * @throws FilesException
      */
-    public function getPaht(): string
+    public function getPaht(): string|FilesException
     {
         $storage = $this->path;
 
